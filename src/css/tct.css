@@ -1,0 +1,22 @@
+.comedu {
+    text-align: center;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+#ttt {
+    font-size: 10mm;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}

@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <div style={{color: 'green', textAlign: 'center', background: 'pink'}}>
-            <h1>Webtech 268</h1>
+            <h1>Welcome to My Website</h1>
         </div>
     );
 }

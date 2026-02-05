@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Apinat_React/static/css/main.f04855fc.css",
-    "main.js": "/Apinat_React/static/js/main.0e93a3a7.js",
+    "main.css": "/Apinat_React/static/css/main.1610878b.css",
+    "main.js": "/Apinat_React/static/js/main.30e0254d.js",
     "static/media/10.png": "/Apinat_React/static/media/10.d9443259e3ec8466d33b.png",
     "index.html": "/Apinat_React/index.html",
-    "main.f04855fc.css.map": "/Apinat_React/static/css/main.f04855fc.css.map",
-    "main.0e93a3a7.js.map": "/Apinat_React/static/js/main.0e93a3a7.js.map"
+    "main.1610878b.css.map": "/Apinat_React/static/css/main.1610878b.css.map",
+    "main.30e0254d.js.map": "/Apinat_React/static/js/main.30e0254d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f04855fc.css",
-    "static/js/main.0e93a3a7.js"
+    "static/css/main.1610878b.css",
+    "static/js/main.30e0254d.js"
   ]
 }

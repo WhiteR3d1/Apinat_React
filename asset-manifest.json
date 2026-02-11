@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Apinat_React/static/css/main.26a7b791.css",
-    "main.js": "/Apinat_React/static/js/main.55e6cdc6.js",
+    "main.js": "/Apinat_React/static/js/main.4998f852.js",
     "static/media/photography.png": "/Apinat_React/static/media/photography.a81426c86e4b766ba23d.png",
     "static/media/10.png": "/Apinat_React/static/media/10.d9443259e3ec8466d33b.png",
     "static/media/sports.png": "/Apinat_React/static/media/sports.3ffbb6c4a6489066caf1.png",
@@ -12,10 +12,10 @@
     "static/media/gaming.png": "/Apinat_React/static/media/gaming.b286f4757fe77d99d453.png",
     "index.html": "/Apinat_React/index.html",
     "main.26a7b791.css.map": "/Apinat_React/static/css/main.26a7b791.css.map",
-    "main.55e6cdc6.js.map": "/Apinat_React/static/js/main.55e6cdc6.js.map"
+    "main.4998f852.js.map": "/Apinat_React/static/js/main.4998f852.js.map"
   },
   "entrypoints": [
     "static/css/main.26a7b791.css",
-    "static/js/main.55e6cdc6.js"
+    "static/js/main.4998f852.js"
   ]
 }

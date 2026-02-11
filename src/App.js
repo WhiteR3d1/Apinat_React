@@ -9,7 +9,7 @@ import PageNotFound from "./components/PageNoyFound";
 function App() {
   const std1 = { name: "Apinat Ladloy", stdid: '6802041510198', depart: "Computer Education" };
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Apinat_React">
       <Header />
 
       <Routes>

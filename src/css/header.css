@@ -1,0 +1,26 @@
+.main-header {
+    background-color: #333;       /* สีพื้นหลังเข้มตามรูป */
+    margin: 20px;                 /* เว้นระยะจากขอบจอ */
+    padding: 15px 40px;           /* ระยะห่างภายใน */
+    border-radius: 15px;          /* ความโค้งมนของแถบ */
+    display: flex;
+    justify-content: flex-end;    /* จัดเมนูไปทางขวา */
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;                    /* ระยะห่างระหว่างเมนู */
+}
+
+.nav-links a {
+    color: white;                 /* ตัวอักษรสีขาว */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #ff4d4d;               /* เปลี่ยนสีเมื่อชี้หรือเป็นหน้าปัจจุบัน */
+}

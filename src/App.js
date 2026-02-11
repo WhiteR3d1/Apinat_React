@@ -1,26 +1,24 @@
 import "../src/css/tct.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/Header"
 import Student from "./components/Student";
+import Activity from "./components/Activity";
+import Education from "./components/Education";
+import PageNotFound from "./components/PageNoyFound";
 
 function App() {
-  const std1 = { name: "Apinat Ladloy", stdid: '6802041510198' , depart: "Computer Education"};
+  const std1 = { name: "Apinat Ladloy", stdid: '6802041510198', depart: "Computer Education" };
   return (
-    <div style={{ 
-      minHeight: '100vh',
-      
-      backgroundImage: `linear-gradient(
-        115deg, 
-        #ff5e3a 50%,          /* สีส้มด้านซ้าย */
-        rgba(0,0,0,0.2) 50%,  /* เงาตรงรอยต่อ (เพื่อให้ดูมีมิติซ้อนกัน) */
-        #c83cb9 50.5%         /* สีม่วงด้านขวา */
-      )`,
+    <BrowserRouter>
+      <Header />
 
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      padding: '20px'
-    }}>
-      <Student stdinfo={std1} />
-    </div>
+      <Routes>
+        <Route path="/" element={<Student stdinfo={std1} />} />
+        <Route path="/edu" element={<Education />} />
+        <Route path="/Activity" element={<Activity />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

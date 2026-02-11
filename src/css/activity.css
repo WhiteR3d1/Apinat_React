@@ -1,0 +1,58 @@
+/* จัดกึ่งกลางคอนเทนเนอร์ (ถ้าต้องการ) */
+.activity-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: left; /* จัดข้อความหัวข้อชิดซ้าย */
+}
+
+/* หัวข้อ HOBBIES & INTERESTS */
+.section-title {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: #94a3b8; /* สีเทาจางๆ ตามแบบ */
+    text-transform: uppercase; /* ตัวพิมพ์ใหญ่ทั้งหมด */
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* กล่องรวมปุ่มทั้งหมด */
+.hobbies-list {
+    display: flex;
+    flex-wrap: wrap; /* ให้ปัดตกบรรทัดใหม่ถ้ายาวเกิน */
+    gap: 15px;       /* ระยะห่างระหว่างปุ่ม */
+}
+
+/* ตัวปุ่มแต่ละอัน */
+.hobby-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #e2e8f0; /* เส้นขอบสีเทาอ่อน */
+    border-radius: 50px;       /* ทำขอบมนเป็นทรงแคปซูล */
+    padding: 10px 24px;
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+/* เอฟเฟกต์ตอนเอาเมาส์ชี้ */
+.hobby-item:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+/* ไอคอนรูปภาพ */
+.hobby-icon {
+    width: 150px;
+    height: 150px;
+    margin-right: 12px;
+    object-fit: contain;
+}
+
+/* ข้อความ */
+.hobby-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #334155; /* สีตัวอักษรเข้ม */
+}

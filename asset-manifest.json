@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/Apinat_React/static/css/main.1610878b.css",
-    "main.js": "/Apinat_React/static/js/main.30e0254d.js",
+    "main.css": "/Apinat_React/static/css/main.26a7b791.css",
+    "main.js": "/Apinat_React/static/js/main.55e6cdc6.js",
+    "static/media/photography.png": "/Apinat_React/static/media/photography.a81426c86e4b766ba23d.png",
     "static/media/10.png": "/Apinat_React/static/media/10.d9443259e3ec8466d33b.png",
+    "static/media/sports.png": "/Apinat_React/static/media/sports.3ffbb6c4a6489066caf1.png",
+    "static/media/unnamed2.jpg": "/Apinat_React/static/media/unnamed2.3b6ba391ba569c6a55ac.jpg",
+    "static/media/475835965.jpg": "/Apinat_React/static/media/475835965.d307cde4a4ef85b5a42d.jpg",
+    "static/media/music-playing.png": "/Apinat_React/static/media/music-playing.a60037431d3795135ca0.png",
+    "static/media/unnamed.jpg": "/Apinat_React/static/media/unnamed.319b6c840a6179187591.jpg",
+    "static/media/gaming.png": "/Apinat_React/static/media/gaming.b286f4757fe77d99d453.png",
     "index.html": "/Apinat_React/index.html",
-    "main.1610878b.css.map": "/Apinat_React/static/css/main.1610878b.css.map",
-    "main.30e0254d.js.map": "/Apinat_React/static/js/main.30e0254d.js.map"
+    "main.26a7b791.css.map": "/Apinat_React/static/css/main.26a7b791.css.map",
+    "main.55e6cdc6.js.map": "/Apinat_React/static/js/main.55e6cdc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1610878b.css",
-    "static/js/main.30e0254d.js"
+    "static/css/main.26a7b791.css",
+    "static/js/main.55e6cdc6.js"
   ]
 }

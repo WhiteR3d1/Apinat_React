@@ -77,3 +77,14 @@
     font-size: 1.1rem;
     font-weight: 700;
 }
+
+.school-link-wrapper {
+    text-decoration: none; /* เอาเส้นใต้ของลิงก์ออก */
+    color: inherit; /* ให้สีตัวอักษรเป็นไปตามที่เรากำหนดไว้ในการ์ด */
+    display: block; /* สำคัญ: เพื่อให้ <a> กินพื้นที่เต็มๆ เท่ากับเนื้อหาข้างใน */
+}
+
+/* คุณอาจจะต้องการให้มีการเปลี่ยนรูปแบบเมาส์เป็นรูปมือ (pointer) เวลาชี้ที่การ์ด */
+.school-link-wrapper .school-item {
+    cursor: pointer;
+}

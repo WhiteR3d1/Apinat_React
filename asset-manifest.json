@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Apinat_React/static/css/main.af5e85ea.css",
-    "main.js": "/Apinat_React/static/js/main.8e110c6f.js",
+    "main.css": "/Apinat_React/static/css/main.ebe6a87e.css",
+    "main.js": "/Apinat_React/static/js/main.a7d5ec64.js",
     "static/media/photography.png": "/Apinat_React/static/media/photography.a81426c86e4b766ba23d.png",
     "static/media/10.png": "/Apinat_React/static/media/10.d9443259e3ec8466d33b.png",
     "static/media/sports.png": "/Apinat_React/static/media/sports.3ffbb6c4a6489066caf1.png",
@@ -11,11 +11,11 @@
     "static/media/unnamed.jpg": "/Apinat_React/static/media/unnamed.319b6c840a6179187591.jpg",
     "static/media/gaming.png": "/Apinat_React/static/media/gaming.b286f4757fe77d99d453.png",
     "index.html": "/Apinat_React/index.html",
-    "main.af5e85ea.css.map": "/Apinat_React/static/css/main.af5e85ea.css.map",
-    "main.8e110c6f.js.map": "/Apinat_React/static/js/main.8e110c6f.js.map"
+    "main.ebe6a87e.css.map": "/Apinat_React/static/css/main.ebe6a87e.css.map",
+    "main.a7d5ec64.js.map": "/Apinat_React/static/js/main.a7d5ec64.js.map"
   },
   "entrypoints": [
-    "static/css/main.af5e85ea.css",
-    "static/js/main.8e110c6f.js"
+    "static/css/main.ebe6a87e.css",
+    "static/js/main.a7d5ec64.js"
   ]
 }

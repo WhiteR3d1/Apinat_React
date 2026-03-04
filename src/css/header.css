@@ -24,3 +24,28 @@
 .nav-links a:hover, .nav-links a.active {
     color: #ff4d4d;               /* เปลี่ยนสีเมื่อชี้หรือเป็นหน้าปัจจุบัน */
 }
+
+/* ส่วนของ Login / ข้อมูลผู้ใช้ */
+.auth-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+.profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.user-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+}

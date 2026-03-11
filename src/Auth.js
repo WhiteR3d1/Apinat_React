@@ -1,11 +1,13 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
+const {REACT_APP_APIKEY,REACT_APP_AUTHDOMAIN,REACT_APP_PRJID,REACT_APP_APPID} = process.env;
+
 const firebaseConfig = {
-    apiKey: "AIzaSyDJftmW5C4Hy9XS3biLfLvgmJU1sVN1Sxs",
-    authDomain: "apinat-react.firebaseapp.com",
-    projectId: "apinat-react",
-    appId: "1:268156421352:web:4564d0690fb3dbade7f55d"
+    apiKey: REACT_APP_APIKEY,
+    authDomain: REACT_APP_AUTHDOMAIN,
+    projectId: REACT_APP_PRJID,
+    appId: REACT_APP_APPID
 }
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
